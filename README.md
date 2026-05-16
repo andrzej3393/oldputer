@@ -15,6 +15,10 @@ Note: this project is **fully vibe coded** (along with this readme). Nevertheles
 - Renders a 2x2 dashboard layout with day/night OUTSIDE weather icons.
 - Shows next sun event in time panel (`SUNSET HH:MM` during day, `SUNRISE HH:MM` at night).
 
+## Case
+
+Case model ready to print as well as source FreeCAD project is available on [Makerworld](https://makerworld.com/en/models/2810592-oldputer).
+
 ## Hardware
 
 - Board: ESP32 DevKit
