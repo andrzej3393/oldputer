@@ -1,0 +1,12 @@
+profiles:
+  weather_station:
+    fqbn: esp32:esp32:esp32:PartitionScheme=huge_app,CPUFreq=160,FlashMode=qio,FlashFreq=80,PSRAM=disabled,DebugLevel=none
+    platforms:
+      - platform: esp32:esp32
+    libraries:
+      - GxEPD2 (1.6.8)
+      - Adafruit GFX Library (1.12.6)
+      - Adafruit BusIO (1.17.4)
+      - Adafruit Unified Sensor (1.1.15)
+      - Adafruit BME280 Library (2.3.0)
+      - PubSubClient (2.8.0)
