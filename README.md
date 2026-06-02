@@ -207,7 +207,7 @@ Use `docs/HA_TEMPLATE_SENSORS.md` for `Today` / `Tomorrow` forecast template ent
 
 ## Project Layout
 
-- `epaper-esp32.ino` - sketch entrypoint and screen state machine.
+- `oldputer.ino` - sketch entrypoint and screen state machine.
 - `src/core/` - core config/settings/activity LED.
 - `src/net/` - WiFi state, config portal, Home Assistant fetch.
 - `src/ui/` - main dashboard and setup screens.
