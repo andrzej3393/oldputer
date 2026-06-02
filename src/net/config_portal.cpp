@@ -43,6 +43,9 @@ void sendRaw(const char* text) {
 }
 
 void sendEscaped(const String& value) {
+  if (value.isEmpty()) {
+    return;
+  }
   server.sendContent(htmlEscape(value));
 }
 
